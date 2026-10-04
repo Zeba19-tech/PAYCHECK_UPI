@@ -1,0 +1,21 @@
+{
+  "name": "paycheck-upi-backend",
+  "version": "1.0.0",
+  "description": "PayCheck UPI backend for SecureSix",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "helmet": "^8.3.0",
+    "jsqr": "^1.4.0",
+    "mongoose": "^9.9.3",
+    "multer": "^2.0.2",
+    "sharp": "^0.35.4",
+    "tesseract.js": "^6.0.1"
+  }
+}
