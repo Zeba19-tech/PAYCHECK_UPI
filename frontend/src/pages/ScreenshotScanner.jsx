@@ -274,7 +274,7 @@ function ScreenshotScanner({ onReport }) {
       );
 
       const response = await axios.post(
-        "http://localhost:5000/api/screenshot/analyze",
+        "https://paycheck-upi.onrender.com/api/screenshot/analyze",
         formData,
         {
           timeout: 120000
