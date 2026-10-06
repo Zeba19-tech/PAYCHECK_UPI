@@ -19,7 +19,7 @@ import {
 
 const API_BASE =
   import.meta.env.VITE_API_URL ||
-  "https://paycheck-upi.onrender.com/api/report";
+  "https://paycheck-upi.onrender.com/api";
 
 const scamTypes = [
   "UPI Scam",
